@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@media only screen and (max-device-width: 1024px) {
+    .img1, .img2, .img3 {
+        background-attachment: scroll;
+    }
+}
+
+body {
+    margin: 0;
+    color: #CDDBDB;
+    font: 400 15px/1.8 Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    min-height: 700px;
+    background-image: url("images/tree.jpg");
+}
+
+.bgimg-2 {
+    min-height: 400px;
+    background-image: url("images/snow.jpg");
+}
+
+
+}
+
+.hero {
+    padding: 40px 70px;
+    color: #000;
+    background-color: #C8CFA9;
+    text-align: center;
+    text-align: justify;
+}
+
+.caption {
+	position: absolute;
+	top: 472px;
+	left: -2px;
+	width: 100%;
+	color: #000;
+	text-align: center;
+}
+
+.description-container {
+    position: relative;
+}
+
+.description {
+    padding: 50px 80px;
+    color: #000;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    background-color: #C8CFA9;
+    text-align: center;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+
+.caption span.border {
+    padding top: 100px;
+    color: #27231C;
+    font-size: 40px;
+    letter-spacing: 3px;
+}
+
+
+
+h2 {
+    color: #111;
+    text-transform: uppercase;
+    font: 20px; 
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    letter-spacing: 5px;
+}
