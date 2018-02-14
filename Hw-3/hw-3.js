@@ -49,7 +49,8 @@ console.log (9 > 8)
 
 
 
-
+for (let triangle = '#'; triangle.length < 10; triangle += '#')
+console.log(triangle);
 
 
 
