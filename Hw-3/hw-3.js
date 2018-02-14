@@ -17,9 +17,9 @@ the correct output occurs.
 // These 3 statements should print out the 3 basic data types you learned about this week.
 // (i.e. `number`, `string`, `boolean`)
 
-console.log (100*3);
-console.log ("This is a string");
-console.log (9 > 8)
+console.log (typeof(100*3));
+console.log (typeof("This is a string"));
+console.log (typeof(9 > 8))
 
 
 /**************************************************/
@@ -48,7 +48,7 @@ console.log (9 > 8)
 // You program should utilize a control loop of somesort to solve this problem.
 
 
-
+var triangle = "#";
 for (let triangle = '#'; triangle.length < 10; triangle += '#')
 console.log(triangle);
 
