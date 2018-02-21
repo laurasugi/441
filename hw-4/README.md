@@ -2,7 +2,7 @@
 ___
 This week's lesson left me with quite a few more frustrations than successes.  While I was able to figure out the basics of function formats
 with relative ease, the more complex ones left me feeling completely clueless.  While I did work on this assignment pretty steadily 
-throughout the week, I spent most of my time stumped on the last two questions and was not able to create a working program for 
+throughout the week, I spent most of my time stumped on the last three questions and was not able to create a working program for 
 either.
 However getting the first two to work did feel great and I did enjoy those. I did get stuck on the second problem for a while before 
 re-working my code to get the correct result. I started out with:
