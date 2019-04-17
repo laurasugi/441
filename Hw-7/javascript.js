@@ -64,10 +64,17 @@
 					console.log('First left change has occured');
 					divL.removeEventListener("click", changeBackgroundL );
 					
+					//Ends radio audio
+					document.getElementById('audioP4').pause();
+					console.log('P4 audio has stopped');
+				
 				} else if(  idx === 2 ) { 	
 					document.body.style.backgroundImage = "url('./images/5.png')";
 					console.log('Second left change has occured');
 					
+					//Ends radio audio
+					document.getElementById('audioP4').pause();
+					console.log('P4 audio has stopped');
 					
 					
 				}
